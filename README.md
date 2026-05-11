@@ -19,8 +19,6 @@ Mac 环境一键迁移。通过 GitHub 同步配置，通过 mackup + iCloud 同
 | uv | Python 包管理 |
 | gemini-cli | Gemini CLI |
 | openjdk@17 | Java 17 |
-| poppler | PDF 工具 |
-| mackup | App 设置同步 |
 
 ### GUI 应用
 | 应用 | 说明 |
@@ -29,7 +27,6 @@ Mac 环境一键迁移。通过 GitHub 同步配置，通过 mackup + iCloud 同
 | Anki | 记忆卡片 |
 | ChatGPT | OpenAI 客户端 |
 | Claude | Anthropic 客户端 |
-| Cloudflare WARP | VPN |
 | Cursor | AI 编辑器 |
 | Dropbox | 云存储 |
 | f.lux | 护眼色温 |
