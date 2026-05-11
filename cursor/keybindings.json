@@ -1,0 +1,123 @@
+// 将键绑定放在此文件中以覆盖默认值
+[{
+	"key": "cmd+1",
+	"command": "commandId",
+	"when": "editorTextFocus"
+},
+{
+	"key": "shift+cmd+e",
+	"command": "-workbench.view.explorer",
+	"when": "viewContainer.workbench.view.explorer.enabled"
+},
+{
+	"key": "cmd+b",
+	"command": "-workbench.action.toggleSidebarVisibility"
+},
+{
+	"key": "cmd+1",
+	"command": "workbench.action.toggleSidebarVisibility"
+},
+{
+	"key": "ctrl+`",
+	"command": "workbench.action.terminal.toggleTerminal",
+	"when": "terminal.active"
+},
+{
+	"key": "ctrl+`",
+	"command": "-workbench.action.terminal.toggleTerminal",
+	"when": "terminal.active"
+},
+{
+	"key": "alt+enter",
+	"command": "editor.action.sourceAction"
+},
+{
+	"key": "alt+cmd+f",
+	"command": "editor.foldAll",
+	"when": "editorTextFocus && foldingEnabled"
+},
+{
+	"key": "cmd+r cmd+0",
+	"command": "-editor.foldAll",
+	"when": "editorTextFocus && foldingEnabled"
+},
+{
+	"key": "alt+cmd+u",
+	"command": "editor.unfoldAll",
+	"when": "editorTextFocus && foldingEnabled"
+},
+{
+	"key": "cmd+r cmd+j",
+	"command": "-editor.unfoldAll",
+	"when": "editorTextFocus && foldingEnabled"
+},
+{
+	"key": "alt+cmd+p",
+	"command": "workbench.actions.view.problems",
+	"when": "workbench.panel.markers.view.active"
+},
+{
+	"key": "shift+cmd+m",
+	"command": "-workbench.actions.view.problems",
+	"when": "workbench.panel.markers.view.active"
+},
+{
+	"key": "alt+left",
+	"command": "workbench.action.showPreviousWindowTab"
+},
+{
+	"key": "alt+cmd+f",
+	"command": "notebook.cell.collapseCellInput",
+	"when": "notebookCellListFocused && !inputFocus && !notebookCellInputIsCollapsed"
+},
+{
+	"key": "cmd+r cmd+c",
+	"command": "-notebook.cell.collapseCellInput",
+	"when": "notebookCellListFocused && !inputFocus && !notebookCellInputIsCollapsed"
+},
+{
+	"key": "alt+cmd+u",
+	"command": "notebook.cell.expandCellInput",
+	"when": "notebookCellInputIsCollapsed && notebookCellListFocused"
+},
+{
+	"key": "cmd+r cmd+c",
+	"command": "-notebook.cell.expandCellInput",
+	"when": "notebookCellInputIsCollapsed && notebookCellListFocused"
+},
+{
+	"key": "alt+backspace",
+	"command": "deleteFile",
+	"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+},
+{
+	"key": "alt+cmd+backspace",
+	"command": "-deleteFile",
+	"when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+},
+{
+	"key": "cmd+[",
+	"command": "workbench.action.navigateBack",
+	"when": "canNavigateBack"
+},
+{
+	"key": "ctrl+-",
+	"command": "-workbench.action.navigateBack",
+	"when": "canNavigateBack"
+},
+{
+	"key": "cmd+]",
+	"command": "workbench.action.navigateForward",
+	"when": "canNavigateForward"
+},
+{
+	"key": "ctrl+shift+-",
+	"command": "-workbench.action.navigateForward",
+	"when": "canNavigateForward"
+},
+{
+	"key": "shift+cmd+escape",
+	"command": "-claude-vscode.editor.open",
+	"when": "!config.claudeCode.useTerminal"
+}
+]

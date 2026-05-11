@@ -1,0 +1,169 @@
+{
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontSize": 15,
+  "editor.fontLigatures": false,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": false,
+  "editor.accessibilitySupport": "on",
+  "remote.SSH.remotePlatform": {
+    "121": "linux",
+    "168": "linux",
+    "124.223.26.100": "linux",
+    "192.168.43.225": "linux",
+    "192.168.43.17": "linux",
+    "jupyter.shutongxin224.xyz": "linux",
+    "150.158.50.164": "linux",
+    "58.199.160.138": "linux",
+    "58.199.157.181": "linux",
+    "47.254.32.209": "linux",
+    "47.254.52.144": "linux",
+    "47.251.57.251": "linux",
+    "47.251.63.122": "linux",
+    "10.10.70.67": "linux",
+    "58.199.164.48": "linux",
+    "47.251.51.141": "linux",
+    "47.251.14.9": "linux",
+    "47.254.33.242": "linux",
+    "connect.westb.seetacloud.com": "linux",
+    "58.199.162.83": "linux",
+    "workspace.featurize.cn": "linux",
+    "58.199.162.130": "linux",
+    "129.80.129.54": "linux",
+    "150.136.4.154": "linux",
+    "instance-20240609-075327.us-central1-a.zhaoliangvaio1987": "linux",
+    "instance-20240609-224724.us-central1-a.zhaoliangvaio1987": "linux",
+    "zhuofeng-tegdb.us-central1-a.zhaoliangvaio1987": "linux",
+    "zhuofeng-llm.us-central1-f.zhaoliangvaio1987": "linux",
+    "rag.us-central1-f.zhuofeng-project": "linux",
+    "18.205.66.212": "linux",
+    "3.88.224.180": "linux",
+    "teg.us-central1-f.zhuofeng-project": "linux",
+    "pan195": "linux",
+    "lambda_h100_2": "linux",
+    "vast_8_a100": "linux",
+    "vast_8_a100_80g": "linux",
+    "pan80": "linux",
+    "ping24_h20_8": "linux",
+    "alliance_fir": "linux",
+    "ssh ubuntu@192.222.54.173": "linux",
+    "ubuntu_163_192_204_128": "linux",
+    "pan_128": "linux",
+    "killarney": "linux",
+    "fir": "linux",
+    "pan220": "linux",
+    "ping24_h20": "linux",
+    "ssh ubuntu@150.136.144.82": "linux",
+    "ubuntu@150.136.144.82": "linux",
+    "pan199": "linux",
+    "ubuntu@192.222.50.78": "linux",
+    "pan185": "linux",
+    "pan168": "linux",
+    "pan89": "linux",
+    "pan121": "linux",
+    "login.vision.tamus.edu": "linux"
+  },
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "python.linting.flake8Args": [
+    "--max-line-length=248"
+  ],
+  "leetcode.endpoint": "leetcode",
+  "leetcode.workspaceFolder": "C:\\Users\\lizhuofeng\\.leetcode",
+  "leetcode.defaultLanguage": "java",
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.configWebviewMarkdown": false,
+  "editor.insertSpaces": false,
+  "redhat.telemetry.enabled": true,
+  "files.autoSave": "afterDelay",
+  "workbench.editorAssociations": {
+    "*.out": "hexEditor.hexedit",
+    "*.csv": "default",
+    "*.tex": "default"
+  },
+  "C_Cpp.errorSquiggles": "enabled",
+  "C_Cpp.default.cStandard": "c23",
+  "C_Cpp.default.enableConfigurationSquiggles": false,
+  "C_Cpp.intelliSenseEngineFallback": "enabled",
+  "C_Cpp.autocompleteAddParentheses": true,
+  "C_Cpp.clang_format_fallbackStyle": "Google",
+  "git.enableSmartCommit": true,
+  "workbench.startupEditor": "none",
+  "cSpell.enableFiletypes": [
+    "markdown_latex_combined",
+    "razor"
+  ],
+  "cSpell.userWords": [
+    "generalizability",
+    "subnetwork"
+  ],
+  "workbench.colorCustomizations": {},
+  "github.copilot.editor.enableAutoCompletions": true,
+  "workbench.editor.empty.hint": "hidden",
+  "git.openRepositoryInParentFolders": "never",
+  "cloudcode.project": "zhuofeng-project",
+  "cloudcode.autoDependencies": "off",
+  "debug.disassemblyView.showSourceCode": false,
+  "C_Cpp.intelliSenseEngine": "disabled",
+  "cmake.pinnedCommands": [
+    "workbench.action.tasks.configureTaskRunner",
+    "workbench.action.tasks.runTask"
+  ],
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "[cpp]": {
+    "editor.defaultFormatter": "xaver.clang-format"
+  },
+  "cursor.cpp.disabledLanguages": [
+    "plaintext",
+    "markdown",
+    "scminput"
+  ],
+  "terminal.integrated.defaultProfile.linux": "zsh",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "gitlens.remotes": [],
+  "diffEditor.maxComputationTime": 0,
+  "remote.SSH.defaultExtensions": [
+    "anyscalecompute.anyscale-workspaces",
+    "ms-python.python",
+    "ms-toolsai.jupyter-renderers",
+    "ms-toolsai.jupyter-keymap",
+    "ms-toolsai.jupyter"
+  ],
+  "git.confirmSync": false,
+  "flake8.args": [
+    "\u0022flake8.args\u0022: [\u0022--max-line-length=120\u0022]"
+  ],
+  "[csv]": {
+    "editor.inlayHints.maximumLength": 0
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "jupyter.askForKernelRestart": false,
+  "remote.autoForwardPortsSource": "hybrid",
+  "claudeCode.preferredLocation": "panel",
+  "latex-workshop.latex.tools": [
+    {
+      "name": "latexmk",
+      "command": "/usr/local/texlive/2026/bin/universal-darwin/latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-pdf",
+        "-outdir=%OUTDIR%",
+        "%DOC%"
+      ]
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "latexmk",
+      "tools": ["latexmk"]
+    }
+  ]
+}

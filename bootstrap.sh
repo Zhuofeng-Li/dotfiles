@@ -37,6 +37,13 @@ mkdir -p ~/.config
 rm -rf ~/.config/karabiner
 ln -sf "$DOTFILES_DIR/karabiner" ~/.config/karabiner
 
+echo "==> Setting up Cursor config..."
+CURSOR_DIR="$HOME/Library/Application Support/Cursor/User"
+mkdir -p "$CURSOR_DIR"
+rm -f "$CURSOR_DIR/settings.json" "$CURSOR_DIR/keybindings.json"
+ln -sf "$DOTFILES_DIR/cursor/settings.json" "$CURSOR_DIR/settings.json"
+ln -sf "$DOTFILES_DIR/cursor/keybindings.json" "$CURSOR_DIR/keybindings.json"
+
 echo "==> Restoring app settings with mackup..."
 cp "$DOTFILES_DIR/mackup.cfg" ~/.mackup.cfg
 mackup restore
