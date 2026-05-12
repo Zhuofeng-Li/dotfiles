@@ -47,11 +47,20 @@ Mac 环境一键迁移。通过 GitHub 同步配置，通过 mackup + iCloud 同
 | XMind | 思维导图 |
 | Zoom | 会议 |
 
-### VS Code 插件
-Claude Code、GitLens、Jupyter、Python、Pylance、LaTeX Workshop、Vim、Remote SSH/Containers、中文语言包等 24 个插件。
-
-### Cursor 设置
+### Cursor 设置与插件
 `cursor/settings.json` 和 `cursor/keybindings.json`，软链接到 `~/Library/Application Support/Cursor/User/`。在 Cursor 里修改设置后直接 `git push` 即可同步。
+
+插件列表保存在 `cursor/extensions.txt`（共 24 个），`bootstrap.sh` 会自动批量安装。也可单独运行：
+
+```bash
+bash ~/dotfiles/cursor/install-extensions.sh
+```
+
+更新插件列表：
+
+```bash
+cursor --list-extensions > ~/dotfiles/cursor/extensions.txt
+```
 
 ### Karabiner 键位配置
 `karabiner/karabiner.json` 及自定义规则，软链接到 `~/.config/karabiner`。
@@ -93,8 +102,10 @@ dotfiles/
 ├── fish/
 │   └── config.fish       # Fish shell 配置
 ├── cursor/
-│   ├── settings.json     # Cursor 设置
-│   └── keybindings.json  # Cursor 快捷键
+│   ├── settings.json         # Cursor 设置
+│   ├── keybindings.json      # Cursor 快捷键
+│   ├── extensions.txt        # 插件列表
+│   └── install-extensions.sh # 单独安装插件
 └── karabiner/
     ├── karabiner.json    # Karabiner 主配置
     └── assets/           # 自定义改键规则
