@@ -50,10 +50,12 @@ Mac 环境一键迁移。通过 GitHub 同步配置，通过 mackup + iCloud 同
 ### Cursor 设置与插件
 `cursor/settings.json` 和 `cursor/keybindings.json`，软链接到 `~/Library/Application Support/Cursor/User/`。在 Cursor 里修改设置后直接 `git push` 即可同步。
 
-插件列表保存在 `cursor/extensions.txt`（共 24 个），`bootstrap.sh` 会自动批量安装。也可单独运行：
+插件列表保存在 `cursor/extensions.txt`（共 24 个），`bootstrap.sh` 会自动批量安装。
+
+**单独配置 Cursor（设置 + 插件一步到位）：**
 
 ```bash
-bash ~/dotfiles/cursor/install-extensions.sh
+bash ~/dotfiles/cursor/setup.sh
 ```
 
 更新插件列表：
@@ -105,6 +107,7 @@ dotfiles/
 │   ├── settings.json         # Cursor 设置
 │   ├── keybindings.json      # Cursor 快捷键
 │   ├── extensions.txt        # 插件列表
+│   ├── setup.sh              # 一键配置（设置 + 插件）
 │   └── install-extensions.sh # 单独安装插件
 └── karabiner/
     ├── karabiner.json    # Karabiner 主配置
