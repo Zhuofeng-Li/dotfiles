@@ -44,6 +44,16 @@ rm -f "$CURSOR_DIR/settings.json" "$CURSOR_DIR/keybindings.json"
 ln -sf "$DOTFILES_DIR/cursor/settings.json" "$CURSOR_DIR/settings.json"
 ln -sf "$DOTFILES_DIR/cursor/keybindings.json" "$CURSOR_DIR/keybindings.json"
 
+echo "==> Installing Cursor extensions..."
+if command -v cursor &>/dev/null; then
+  while IFS= read -r ext; do
+    [[ -z "$ext" ]] && continue
+    cursor --install-extension "$ext" --force 2>/dev/null || true
+  done < "$DOTFILES_DIR/cursor/extensions.txt"
+else
+  echo "  Cursor CLI not found, skipping extensions (install manually from cursor/extensions.txt)"
+fi
+
 echo "==> Restoring app settings with mackup..."
 cp "$DOTFILES_DIR/mackup.cfg" ~/.mackup.cfg
 mackup restore
